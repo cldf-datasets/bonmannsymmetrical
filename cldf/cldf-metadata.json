@@ -10,11 +10,12 @@
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
     "dc:title": "Differential object marking in Western Malayo-Polynesian symmetrical voice languages",
+    "dcat:accessURL": "https://github.com/cldf-datasets/bonmannsymmetrical",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "bonmannsymmetrical",
+            "rdf:about": "https://github.com/cldf-datasets/bonmannsymmetrical",
             "rdf:type": "prov:Entity",
-            "dc:created": "0a0104c",
+            "dc:created": "d3920a4",
             "dc:title": "Repository"
         },
         {
