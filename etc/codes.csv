@@ -1,0 +1,8 @@
+ID,Parameter_ID,Original_Name,Name,Map_Icon
+dom-none,dom,no DOM,no DOM,
+dom-asym1,dom,asymmetric I,asymmetric I,
+dom-asym2,dom,asymmetric II,asymmetric II,
+dom-asym3,dom,asymmetric III,asymmetric III,
+dom-sym1,dom,symmetric I,symmetric I,
+dom-sym2,dom,symmetric II,symmetric II,
+dom-sym3,dom,symmetric III,symmetric III,

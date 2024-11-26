@@ -1,0 +1,58 @@
+Language,Glottolog Code,DOM Classification,Sources
+Ivatan,ibat1238,symmetric I,reid1966ivatan; reid2004syntactic[441]
+Yami,yami1254,symmetric I,rau2006yami
+Northern Alta,nort2875,symmetric I,"garcia2018northern_alta[186, 205–213]"
+Pangasinan,pang1290,symmetric I,"benton1971pangasinan[47–57, 193]"
+Ibaloy,ibal1244,symmetric I,ruffolo2004ibaloy[145–160]
+Balangao,bala1310,symmetric II,"shetler1976balangao[50–55, 124–145]"
+Limos Kalinga ,limo1248,no DOM,"ferreirinho1993limos[10–17, 73–75]"
+Dupaningan Agta,dupa1235,no DOM,robinson2008dupaningan[92–99]; healey1960agta
+Kankanaey,kank1243,no DOM,"allen2014kankanaey[92–96, 113, 365–366]"
+Ibanag,iban1267,no DOM,dita2010ibanag
+Bontok Central,cent2292,no DOM,"reid1970bontoc; seidenadel1909bontoc[25–26]; waterman1932igorot; fukuda1997discourse[47–48, 62]"
+Ilocano,ilok1237,no DOM,"rubino1997ilocano[31–32, 38–39, 47–48, 208, 449]; wimbish1987ilocano[75]; ReidLiao2004[465]"
+Kapampangan,pamp1243,asymmetric I,"richards1971pampangan[62, 118–121]; gonzalez1981pampangan[100, 123, 194]; mirikitani1972kapampangan[211]"
+Buol,buol1237,asymmetric I,zobel2005buol
+Tagalog,taga1270,symmetric I,latrouite2011differential
+Hiligaynon,hili1240,symmetric I,"spitz2001hiligaynon[7–14, 47]; wolfenden1971hiligaynon; wolfenden1975hiligaynon_syntax; motus1971hiligaynon; mithun2019hiligaynon"
+Aklanon,akla1240,symmetric I,chai1971aklan; cruz1968aklanon[145–155]
+Tagabawa,taga1272,symmetric II,dubois1991tagabawa; dubois2005tagabawa_texts; brainard1990quotes
+Gorontalo,goro1259,asymmetric II,little1978gorontalo[112–120]
+Matigsalug Manobo,mati1250,symmetric II,wang2006matigsalug[45–49]
+Cebuano,cebu1242,no DOM,"tanangkingsing2009cebuano[109–119, 353–361, 401–405]; yap1976cebuano; wolff1965cebuano"
+Bikol ,biko1240,no DOM ,mintz1971bikol; mcfarland1974bikol[156]
+Iraya,iray1237,no DOM,or2020iraya; reid2017iraya
+Agutaynen,agut1237,symmetric II,quakenbush2010overview;  quakenbush2005agutaynen
+Tboli,tbol1240,asymmetric II,"forsberg1992pedagogical[68–70, 84]; porter1977tboli[55–58]"
+Matéq,kemb1249,no DOM,connell2013mateq
+Toratán Ratahan,rata1244,symmetric II ,himmelmann1999toratan[21–23]
+Malagasy,mala1537,asymmetric I,"iemmolo2011dom[205–207]; keenan2008definiteness[245–246]; zribi1999malagasy[186-193]; pearson2001malagasy; bennett1986simple[55, 69]; adelaar2014malagasy; rasoloson2005malagasy[468–469]"
+Yakan,yaka1277,symmetric III ,brainard2002yakan[187–188]
+West Coast Bajau,west2560,asymmetric III,miller2007west_coast_bajau[142–143]
+Tondano,tond1251,no DOM,brickell2014tondano[339–344]
+Totoli,toto1304,asymmetric III,(authors’ field notes)
+Pendau,pend1242,asymmetric III,quick2007pendau[366–368]
+Balantak,bala1315,no DOM,van2012balantak
+Tajio,taji1246,no DOM,"mayani2013tajio[142–146, 170–171]"
+Begak-Ida'an,idaa1241,asymmetric I,goudswaard2005begak[136–139]
+Kimaragang,kima1244,symmetric III,kroeger2005kimaragang[413]; kroeger1988verbal[220–224]
+Bonggi,bong1289,symmetric III,boutin1994aspect; boutin2002nominative
+Belait,bela1260,asymmetric III,clynes2005belait
+Tindal Dusun,temp1235,asymmetric III,"robinson2005tindal_dusun[10–16, 18]"
+Tatana,tata1257,no DOM,dillon1994tatana[15–17]
+Kelabit,kela1258,no DOM,hemmings2016kelabit
+Batak Karo,bata1293,asymmetric III,"woollams1996karo[115, 187]"
+Batak Toba,bata1289,asymmetric III,nababan1981toba_batak[61–74]
+Gayo,gayo1244,no DOM,eades2005gayo
+Lampung Pesisir,lamp1243,no DOM,walker1976lampung
+Javanese,java1254,no DOM,suharno1982javanese; ogloblin2005javanese
+Manado Malay,mala1481,asymmetric I,iemmolo2011dom[104]
+Baba Malay,baba1267,asymmetric I,lee2022grammar[135]; thurgood1998baba[99–112]
+Indonesian,indo1316,asymmetric III,sneddon2010indonesian
+Indonesian Riau,riau1236,asymmetric III,"(David Gil, personal communication)"
+Besemah,cent2053,asymmetric III ,mcdonnell2016besemah[76]
+Minangkabau,mina1268,no DOM,crouch2009minangkabau
+Sundanese,sund1252,no DOM,muller-gotama2001sundanese; hardjadibrata1985sundanese[35]
+Madurese,nucl1460,no DOM,davies2010madurese[247–256]
+Mualang,mual1241,no DOM,tjia2007mualang[152–153]
+Balinese,bali1278,no DOM,arka2003balinese[225]; clynes1995balinese[194–197]
