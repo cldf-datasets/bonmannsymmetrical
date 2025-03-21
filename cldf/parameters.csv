@@ -1,2 +1,7 @@
 ID,Name,Description,ColumnSpec
-dom,DOM Classification,,
+dom,Types of differential object marking,"Symmetric Type I: DOM in pronouns, personal names, and common nouns by means of two or more different overt (case) markers
+Symmetric Type II: DOM in pronouns and personal nouns only by means of two or more different overt (case) markers
+Symmetric Type III: DOM in pronouns only by means of two or more different overt (case) markers
+Asymmetric Type I: DOM in pronouns, personal names, and common nouns distinguishing unmarked base forms from more specific, marked forms
+Asymmetric Type II: DOM in pronouns and personal nouns only distinguishing unmarked base forms from more specific, marked forms
+Asymmetric Type III: DOM in pronouns only distinguishing unmarked base forms from more specific, marked forms",

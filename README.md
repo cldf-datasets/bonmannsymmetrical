@@ -1,16 +1,14 @@
-# Differential object marking in Western Malayo-Polynesian symmetrical voice languages
-
-## How to cite
-
-If you use these data please cite
-this dataset using the DOI of the [particular released version](../../releases/) you were using
-
-## Description
+Differential object marking in symmetrical voice languages
+==========================================================
 
 
-This dataset is licensed under a CC-BY-4.0 license
+This dataset comes from Appendix 1 of:
 
-Available online at https://crossgram.clld.org/contributions/bonmannsymmetrical
+Bonmann, Svenja & Riesberg, Sonja & Himmelmann, Nikolaus P. 2024. Differential
+object marking in Western Malayo-Polynesian symmetrical voice languages.
+*Linguistic Typology.* ([doi:10.1515/lingty-2024-0002][doi])
+
+[doi]: https://doi.org/10.1515/lingty-2024-0002
 
 
 ## CLDF Datasets

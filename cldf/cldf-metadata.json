@@ -9,13 +9,13 @@
     "dc:identifier": "https://crossgram.clld.org/contributions/bonmannsymmetrical",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
-    "dc:title": "Differential object marking in Western Malayo-Polynesian symmetrical voice languages",
+    "dc:title": "Differential object marking in symmetrical voice languages",
     "dcat:accessURL": "https://github.com/cldf-datasets/bonmannsymmetrical",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/cldf-datasets/bonmannsymmetrical",
             "rdf:type": "prov:Entity",
-            "dc:created": "7f7b893",
+            "dc:created": "4af1b6c",
             "dc:title": "Repository"
         },
         {
