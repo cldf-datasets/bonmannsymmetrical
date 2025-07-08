@@ -1,10 +1,37 @@
 import pathlib
 import re
 import sys
+from collections import defaultdict
 
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
 from pybtex.database import parse_string
+
+
+def make_examples(csv_examples):
+    examples = defaultdict(list)
+    # TODO: sources
+    for ex in csv_examples:
+        glottocode = ex['Glottocode']
+        analyzed = [w.strip() for w in ex['Primary text'].split('\t')]
+        gloss = [w.strip() for w in ex['Gloss'].split('\t')]
+        translation = ex['Translation']
+        if not analyzed or not translation:
+            continue
+        examples[glottocode].append({
+            'Language_ID': glottocode,
+            'Primary_Text': ' '.join(analyzed),
+            'Analyzed_Word': analyzed,
+            'Gloss': gloss,
+            'Translated_Text': translation,
+            'Source_comment': ex['Source'],
+        })
+
+    for glottocode, language_examples in examples.items():
+        for nr, example in enumerate(language_examples, 1):
+            example['ID'] = f'{glottocode}-{nr}'
+
+    return examples
 
 
 def make_languages(raw_table, glottolog):
@@ -32,7 +59,7 @@ def valid_source(source_string, bibentries):
         return False
 
 
-def make_value(row, code, bibentries):
+def make_value(row, code, examples_by_gc, bibentries):
     glottocode = row['Glottolog Code']
     source_strings = re.split(r'\s*;\s*', row['Sources'])
     perscomm = [
@@ -45,10 +72,14 @@ def make_value(row, code, bibentries):
         for s in source_strings
         if s not in perscomm
         and valid_source(s, bibentries)]
+    examples = [
+        ex['ID']
+        for ex in examples_by_gc.get(glottocode, ())]
     return {
         'ID': f'{glottocode}-dom',
         'Language_ID': glottocode,
         'Parameter_ID': 'dom',
+        'Example_IDs': examples,
         'Code_ID': code['ID'],
         'Value': code['Name'],
         'Source': bibentries,
@@ -56,10 +87,36 @@ def make_value(row, code, bibentries):
     }
 
 
-def make_values(raw_table, parameters, codes, bibentries):
+def make_values(raw_table, parameters, codes, examples_by_gc, bibentries):
     return [
-        make_value(row, codes[row['DOM Classification']], bibentries)
+        make_value(row, codes[row['DOM Classification']], examples_by_gc, bibentries)
         for row in raw_table]
+
+
+def make_schema(cldf):
+    cldf.add_columns(
+        'ValueTable',
+        {'name': 'Example_IDs',
+         'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#exampleReference',
+         'datatype': 'string',
+         'separator': ';',
+         'dc:extent': 'multivalued'},
+        'Source_comment')
+
+    cldf.add_component('LanguageTable')
+    cldf.add_component('ParameterTable')
+    cldf.add_component('CodeTable', 'Map_Icon')
+    cldf.add_component(
+        'ExampleTable',
+        {'name': 'Source',
+         'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#source',
+         'separator': ';',
+         'dc:extent': 'multivalued'},
+        'Source_comment')
+
+    cldf.add_foreign_key(
+        'ValueTable', 'Example_IDs',
+        'ExampleTable', 'ID')
 
 
 class Dataset(BaseDataset):
@@ -96,6 +153,9 @@ class Dataset(BaseDataset):
         raw_table = [
             {k: trimmed for k, v in row.items() if (trimmed := v.strip())}
             for row in self.raw_dir.read_csv('bonmannsymmetrical.csv', dicts=True)]
+
+        examples_by_gc = make_examples(self.raw_dir.read_csv('examples.csv', dicts=True))
+
         parameters = {
             row['Original_Name']: row
             for row in self.etc_dir.read_csv('parameters.csv', dicts=True)}
@@ -105,18 +165,20 @@ class Dataset(BaseDataset):
         sources = parse_string(self.raw_dir.read('sources.bib'), 'bibtex')
 
         languages = make_languages(raw_table, args.glottolog.api)
-        values = make_values(raw_table, parameters, codes, sources.entries)
+        values = make_values(
+            raw_table, parameters, codes, examples_by_gc, sources.entries)
 
         # write cldf
 
-        args.writer.cldf.add_columns('ValueTable', 'Source_comment')
-        args.writer.cldf.add_component('LanguageTable')
-        args.writer.cldf.add_component('ParameterTable')
-        args.writer.cldf.add_component('CodeTable', 'Map_Icon')
+        make_schema(args.writer.cldf)
 
         args.writer.objects['LanguageTable'] = languages
         args.writer.objects['ParameterTable'] = parameters.values()
         args.writer.objects['CodeTable'] = codes.values()
         args.writer.objects['ValueTable'] = values
+        args.writer.objects['ExampleTable'] = [
+            ex
+            for exs in examples_by_gc.values()
+            for ex in exs]
 
         args.writer.cldf.add_sources(sources)
