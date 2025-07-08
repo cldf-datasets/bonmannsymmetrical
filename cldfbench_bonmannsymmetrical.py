@@ -51,7 +51,7 @@ def make_languages(raw_table, glottolog):
 
 
 def valid_source(source_string, bibentries):
-    bibkey, _ = re.fullmatch('(.*?)(\[[^\]]*\])?', source_string).groups()
+    bibkey, _ = re.fullmatch(r'(.*?)(\[[^\]]*\])?', source_string).groups()
     if bibkey in bibentries:
         return True
     else:
@@ -87,7 +87,7 @@ def make_value(row, code, examples_by_gc, bibentries):
     }
 
 
-def make_values(raw_table, parameters, codes, examples_by_gc, bibentries):
+def make_values(raw_table, codes, examples_by_gc, bibentries):
     return [
         make_value(row, codes[row['DOM Classification']], examples_by_gc, bibentries)
         for row in raw_table]
@@ -136,7 +136,7 @@ class Dataset(BaseDataset):
         >>> self.raw_dir.download(url, fname)
         """
 
-    def cmd_readme(self, args):
+    def cmd_readme(self, _args):
         section_header = (
             'Differential object marking in symmetrical voice languages\n'
             '==========================================================\n'
@@ -165,8 +165,7 @@ class Dataset(BaseDataset):
         sources = parse_string(self.raw_dir.read('sources.bib'), 'bibtex')
 
         languages = make_languages(raw_table, args.glottolog.api)
-        values = make_values(
-            raw_table, parameters, codes, examples_by_gc, sources.entries)
+        values = make_values(raw_table, codes, examples_by_gc, sources.entries)
 
         # write cldf
 
