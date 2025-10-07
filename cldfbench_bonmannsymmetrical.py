@@ -5,7 +5,7 @@ from collections import defaultdict
 
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
-from pybtex.database import parse_string
+from simplepybtex.database import parse_string
 
 
 def make_examples(csv_examples):

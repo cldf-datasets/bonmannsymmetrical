@@ -13,6 +13,7 @@ setup(
     },
     install_requires=[
         'cldfbench[glottolog]',
+        'simplepybtex',
     ],
     extras_require={
         'test': [
