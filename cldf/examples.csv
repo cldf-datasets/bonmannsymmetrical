@@ -1,47 +1,47 @@
 ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID,LGR_Conformance,Comment,Source,Source_comment
-pang1290-1,pang1290,Samay manok so angan ed mansanas,Samay	manok	so	angan	ed	mansanas,DIST	chicken	NOM	AV:eat	DAT	apple,The chicken ate (of) the apple.,,,,,Benton 1971: 193
-pang1290-2,pang1290,Siak so angan na mansanas,Siak	so	angan	na	mansanas,1SG	NOM	AV:eat	GEN	apple,I ate a/the apple.,,,,,Benton 1971: 193
-pang1290-3,pang1290,Mangibangat si Juan kinen Maria,Mangibangat	si	Juan	kinen	Maria,AV:teach	NOM	Juan	DAT	Maria,John/Juan will teach Maria.,,,,,Benton 1971: 193
-pang1290-4,pang1290,Mangibangat si Juan ed siak,Mangibangat	si	Juan	ed	siak,AV:teach	NOM	Juan	DAT	1SG,John/Juan will teach me.,,,,,Benton 1971: 193
-pamp1243-1,pamp1243,ing lalaki ing menakit king anak,ing	lalaki	ing	menakit	king	anak,NOM	man	NOM	PST.AV.see	DAT	child,The man is the one who saw the child.,,,,,Richards 1971: 121
-pamp1243-2,pamp1243,menaya=ya-ng anak ing lalaki,menaya=ya-ng	anak	ing	lalaki,PST.AV.wait=3SG.NOM-LK	child	NOM	man,The man waited for a child (non-specific).,,,,,Richards 1971: 119
-pamp1243-3,pamp1243,ing lalaki ing menakit king anak,ing	lalaki	ing	menakit	king	anak,NOM	man	NOM	PST.AV.see	DAT	child,The man is the one who saw the child.,,,,,Richards 1971: 121
-pamp1243-4,pamp1243,menaya=ya king anak ing lalaki,menaya=ya	king	anak	ing	lalaki,PST.AV:wait=3SG.NOM	DAT	child	NOM	man,The man waited for a/the child.,,,,,Richards 1971: 119
-pamp1243-5,pamp1243,Dinatang ne ing ipus a sumaup kang Ara,Dinatang	ne	ing	ipus	a	sumaup	kang	Ara,AV:arrived	COMP:3SG.NOM	NOM	servant	LK	AV:will.help	DAT	PN,The servant arrived who was going to help Ara.,,,,,Mithun 1994: 259–260
-pamp1243-6,pamp1243,Ninung mikpuk keka?,Ninung	mikpuk	keka?,who:LK	hit:Av	2.DAT,Who hit you?,,,,,Mithun 1994: 262
-taga1270-1,taga1270,Siya ang naka-kita sa aksidente,Siya	ang	naka-kita	sa	aksidente,3SG.NOM	NOM	POT.AV.RLS-visible	DAT	accident,He is the one who saw the accident.,,,,,Latrouite 2011: 95
-taga1270-2,taga1270,Siya ang naka-kita ng aksidente,Siya	ang	naka-kita	ng	aksidente,3SG.NOM	NOM	POT.AV.RLS-visible	GEN	accident,He is the one who saw a/the accident.,,,,,Latrouite 2011: 95
-taga1270-3,taga1270,Siya ang naka-kita kay Jose.,Siya	ang	naka-kita	kay	Jose.,3SG.NOM	NOM	POT.AV.RLS-visible	DAT	Jose,He is the one who saw Jose.,,,,,Latrouite 2011: 95
-taga1270-4,taga1270,Siya ang naka-kita sa akin,Siya	ang	naka-kita	sa	akin,3SG.NOM	NOM	POT.AV.RLS-visible	DAT	1SG.DAT,He is the one who saw me.,,,,,Latrouite 2011: 95
-taga1270-5,taga1270,Siya ang naka-kita ng/*sa kaniya-ng asawa,Siya	ang	naka-kita	ng/*sa	kaniya-ng	asawa,3SG.NOM	NOM	POT.AV.RLS-visible	GEN/DAT	3SG.DAT-Lk	spouse,He/She is the one who saw his/her spouse.,,,,,Latrouite 2011: 96
-taga1270-6,taga1270,Ito ang pusa-ng k<um>ain ng daga'.,Ito	ang	pusa-ng	k<um>ain	ng	daga'.,PRX	NOM	cat-LK	<AV>eat	GEN	rat,This is the cat that ate a/the rat.,,,,,McFarland 1978: 157; Himmelmann 2005: 148
-taga1270-7,taga1270,Ito ang pusa-ng k<um>ain sa daga'.,Ito	ang	pusa-ng	k<um>ain	sa	daga'.,PRX	NOM	cat-LK	<AV>eat	DAT	rat,This is the cat that ate the rat.,,,,,McFarland 1978: 157; Himmelmann 2005: 148
-hili1240-1,hili1240,Nag-hampa’ ang maestra kay Roberto,Nag-hampa’	ang	maestra	kay	Roberto,AV.RLS-strike	NOM	teacher	DAT	Roberto,The teacher hit Roberto.,,,,,Spitz 2002: 386
-hili1240-2,hili1240,Nag-hampa’ ang maestra sa iya,Nag-hampa’	ang	maestra	sa	iya,AV.RLS-strike	NOM	teacher	DAT	3SG.UNF,The teacher hit him/her.,,,,,Spitz 2002: 385
-hili1240-3,hili1240,Nag-hatag ang maestra sang bola sa bata’,Nag-hatag	ang	maestra	sang	bola	sa	bata’,AV.RLS-give	NOM	teacher	GEN	ball	DAT	child,The teacher gave a ball to the child.,,,,,Spitz 2002: 386
-hili1240-4,hili1240,Nag-hakos ako sa propesor.,Nag-hakos	ako	sa	propesor.,AV.RLS-hug	1SG.NOM	DAT	professor,I hugged the professor.,,,,,Spitz 2001: 13
-tbol1240-1,tbol1240,Ne omin le t<m>udà ke Was,Ne	omin	le	t<m>udà	ke	Was,and	then	3PL.NOM	<AV>throw	OBL	Monkey,And then they threw Monkey out.,,,,,Forsberg 1992: 66
-tbol1240-2,tbol1240,Mangay-i kut el,Mangay-i	kut	el,AV:fetch-2SG.NOM	1DU.OBL	water,Please fetch some water for us.,,,,,Forsberg 1992: 66
-tbol1240-3,tbol1240,Omin le mtem yem gunù,Omin	le	mtem	yem	gunù,then	3PL.NOM	AV:burn	that	house,And then they burnt that house.,,,,,Forsberg 1992: 67
-tbol1240-4,tbol1240,Du t<m>olok do,Du	t<m>olok	do,3SG.NOM	<AV>teach	1SG.OBL,He/She will be the one to teach me.,,,,,Forsberg 1992: 67
-rata1244-1,rata1244,Isé nto sumúq nanilow si tonaqas,Isé	nto	sumúq	nanilow	si	tonaqas,3SG	LK.NR	AV:enter	AV.PST:look_for	LOC	shaman,He would be the one to enter (Kinilow) and look for the shaman.,,,,,Himmelmann and Wolff 1999: 23
-rata1244-2,rata1244,Ngapey siyaq,Ngapey	siyaq,AV:wave	LOC.1SG,‘(He) beckoned me over.,,,,,Himmelmann and Wolff 1999: 24
-mala1537-1,mala1537,Nanenjika an-dRabe aho,Nanenjika	an-dRabe	aho,PST.AV.chase	DAT-Rabe	1SG,I chased Rabe.,,,,,Keenan 2008: 245
-mala1537-2,mala1537,Nanenjika ahy izy,Nanenjika	ahy	izy,PST.AV.chase	1SG.DAT	3SG,He chased me.,,,,,Keenan 2008: 245
-mala1537-3,mala1537,Manao (*an) farafra mahafinaritra io mpandrafirtra io,Manao	(*an)	farafra	mahafinaritra	io	mpandrafirtra	io,PRS.AV:make		bed	pleasing	DET	carpenter	DEM,That carpenter makes pleasing beds.,,,,,Keenan 2008: 246
-mala1537-4,mala1537,Mijery an ilay alika Rasoa,Mijery	an	ilay	alika	Rasoa,PRS.AV:watch	DAT	DET	dog	Rasoa,Rasoa is watching this dog.,,,,,Zribi-Hertz and Mbolatianavalona 1999: 191
-mala1537-5,mala1537,Tsy mahalala an io olona io aho,Tsy	mahalala	an	io	olona	io	aho,NEG	PRS.AV:know	DAT	DET	person	DEM	1SG,I don’t know that person.,,,,,Iemmolo 2011: 206
-kima1244-1,kima1244,"Kadung aa kou pendakod dogon, tibas-on tekoo","Kadung	aa	kou	pendakod	dogon,	tibas-on	tekoo",if	NEG	2PL.NOM	AV-CAUS-climb	1SG.DAT	slash-PV	1SG.GEN-2PL.NOM,"If you don’t let me climb up there, I’ll slash you all to pieces!",,,,,Kroeger 2005: 422
-kima1244-2,kima1244,Mangalapak okuh do niyuw,Mangalapak	okuh	do	niyuw,AV-TR-split	1SG.NOM	GEN	coconut,I will split a coconut / some coconuts.,,,,,Kroeger 2005: 407
-kima1244-3,kima1244,Ontok nopoh dit tanak dot [minonibas dit tidi yoh] …,Ontok	nopoh	dit	tanak	dot	[minonibas	dit	tidi	yoh]	…,about	only	GEN	child	REL	PST.AV.TR:slash	GEN	mother	3SG.GEN	…,"As for the son who slashed (i.e. murdered) his mother, …",,,,,Kroeger 2005: 413
-kima1244-4,kima1244,Waro noh tulun sirih [dot sinumambat di Majabou],Waro	noh	tulun	sirih	[dot	sinumambat	di	Majabou],exist	FOC	person	ANAPH.LOC	REL	PST.AV:meet	GEN	Majabou,There were people there who met Majabou …,,,,,Kroeger 2005: 413
-mala1481-1,mala1481,Dorang da kuti (pa) itu anak,Dorang	da	kuti	(pa)	itu	anak,3PL	PST	flick	DIR	the	child,They flicked the child.,,,,,Iemmolo 2011: 104
-mala1481-2,mala1481,Utu da skop pa kita,Utu	da	skop	pa	kita,Utu	PST	kick	DIR	1SG,Utu kicked me.,,,,,Iemmolo 2011: 104
-mala1481-3,mala1481,Kita da tampeleng pa John,Kita	da	tampeleng	pa	John,1SG	PST	slap	DIR	John,I slapped John.,,,,,Iemmolo 2011: 104
-indo1316-1,indo1316,Narti menunggu=ku,Narti	menunggu=ku,PN	AV:wait=1SG.GEN,Narti is waiting for me.,,,,,Sneddon et al. 2010: 170
-indo1316-2,indo1316,Narti menunggu aku.,Narti	menunggu	aku.,PN	AV:wait	1SG,Narti is waiting for me.,,,,,Sneddon et al. 2010:171
-indo1316-3,indo1316,Aku me-lihat guru=nya tadi,Aku	me-lihat	guru=nya	tadi,1SG	AV-see	teacher=3SG.GEN	recently,I saw the teacher earlier (today).,,,,,Sneddon et al. 2010: 171
-indo1316-4,indo1316,Guru=nya me-lihat aku tadi.,Guru=nya	me-lihat	aku	tadi.,teacher=3SG.GEN	AV-see	1SG	recently,The teacher saw me earlier today.,,,,,Sneddon et al. 2010: 171
-indo1316-5,indo1316,Ini pena aku,Ini	pena	aku,PRX	pen	1SG,This is my pen.,,,,,Sneddon et al. 2010: 171
-indo1316-6,indo1316,"Surat itu, saya belum menerima=nya.","Surat	itu,	saya	belum	menerima=nya.",letter	DIST	1SG	not.yet	AV:receive=3SG.GEN,"Concerning that letter, I haven’t received it yet.",,,,,Sneddon et al. 2010: 290
-indo1316-7,indo1316,sebuah lagu yang barangkali saudara akan menyukai=nya,sebuah	lagu	yang	barangkali	saudara	akan	menyukai=nya,one:CLF	song	REL	apparently	sibling	will	AV:like:APPL=3SG.GEN,a song which perhaps you will like,,,,,Sneddon et al. 2010: 298
+pang1290-1,pang1290,Samay manok so angan ed mansanas,Samay	manok	so	angan	ed	mansanas,DIST	chicken	NOM	AV:eat	DAT	apple,The chicken ate (of) the apple.,,,,benton1971pangasinan[193],Benton 1971: 193
+pang1290-2,pang1290,Siak so angan na mansanas,Siak	so	angan	na	mansanas,1SG	NOM	AV:eat	GEN	apple,I ate a/the apple.,,,,benton1971pangasinan[193],Benton 1971: 193
+pang1290-3,pang1290,Mangibangat si Juan kinen Maria,Mangibangat	si	Juan	kinen	Maria,AV:teach	NOM	Juan	DAT	Maria,John/Juan will teach Maria.,,,,benton1971pangasinan[193],Benton 1971: 193
+pang1290-4,pang1290,Mangibangat si Juan ed siak,Mangibangat	si	Juan	ed	siak,AV:teach	NOM	Juan	DAT	1SG,John/Juan will teach me.,,,,benton1971pangasinan[193],Benton 1971: 193
+pamp1243-1,pamp1243,ing lalaki ing menakit king anak,ing	lalaki	ing	menakit	king	anak,NOM	man	NOM	PST.AV.see	DAT	child,The man is the one who saw the child.,,,,richards1971pampangan[121],Richards 1971: 121
+pamp1243-2,pamp1243,menaya=ya-ng anak ing lalaki,menaya=ya-ng	anak	ing	lalaki,PST.AV.wait=3SG.NOM-LK	child	NOM	man,The man waited for a child (non-specific).,,,,richards1971pampangan[119],Richards 1971: 119
+pamp1243-3,pamp1243,ing lalaki ing menakit king anak,ing	lalaki	ing	menakit	king	anak,NOM	man	NOM	PST.AV.see	DAT	child,The man is the one who saw the child.,,,,richards1971pampangan[121],Richards 1971: 121
+pamp1243-4,pamp1243,menaya=ya king anak ing lalaki,menaya=ya	king	anak	ing	lalaki,PST.AV:wait=3SG.NOM	DAT	child	NOM	man,The man waited for a/the child.,,,,richards1971pampangan[119],Richards 1971: 119
+pamp1243-5,pamp1243,Dinatang ne ing ipus a sumaup kang Ara,Dinatang	ne	ing	ipus	a	sumaup	kang	Ara,AV:arrived	COMP:3SG.NOM	NOM	servant	LK	AV:will.help	DAT	PN,The servant arrived who was going to help Ara.,,,,Mithun1994[259-260],Mithun 1994: 259–260
+pamp1243-6,pamp1243,Ninung mikpuk keka?,Ninung	mikpuk	keka?,who:LK	hit:Av	2.DAT,Who hit you?,,,,Mithun1994[262],Mithun 1994: 262
+taga1270-1,taga1270,Siya ang naka-kita sa aksidente,Siya	ang	naka-kita	sa	aksidente,3SG.NOM	NOM	POT.AV.RLS-visible	DAT	accident,He is the one who saw the accident.,,,,Latrouite2011differential[95],Latrouite 2011: 95
+taga1270-2,taga1270,Siya ang naka-kita ng aksidente,Siya	ang	naka-kita	ng	aksidente,3SG.NOM	NOM	POT.AV.RLS-visible	GEN	accident,He is the one who saw a/the accident.,,,,Latrouite2011differential[95],Latrouite 2011: 95
+taga1270-3,taga1270,Siya ang naka-kita kay Jose.,Siya	ang	naka-kita	kay	Jose.,3SG.NOM	NOM	POT.AV.RLS-visible	DAT	Jose,He is the one who saw Jose.,,,,Latrouite2011differential[95],Latrouite 2011: 95
+taga1270-4,taga1270,Siya ang naka-kita sa akin,Siya	ang	naka-kita	sa	akin,3SG.NOM	NOM	POT.AV.RLS-visible	DAT	1SG.DAT,He is the one who saw me.,,,,Latrouite2011differential[95],Latrouite 2011: 95
+taga1270-5,taga1270,Siya ang naka-kita ng/*sa kaniya-ng asawa,Siya	ang	naka-kita	ng/*sa	kaniya-ng	asawa,3SG.NOM	NOM	POT.AV.RLS-visible	GEN/DAT	3SG.DAT-Lk	spouse,He/She is the one who saw his/her spouse.,,,,Latrouite2011differential[96],Latrouite 2011: 96
+taga1270-6,taga1270,Ito ang pusa-ng k<um>ain ng daga'.,Ito	ang	pusa-ng	k<um>ain	ng	daga'.,PRX	NOM	cat-LK	<AV>eat	GEN	rat,This is the cat that ate a/the rat.,,,,McFarland1978[157];Himmelmann2005[148],McFarland 1978: 157; Himmelmann 2005: 148
+taga1270-7,taga1270,Ito ang pusa-ng k<um>ain sa daga'.,Ito	ang	pusa-ng	k<um>ain	sa	daga'.,PRX	NOM	cat-LK	<AV>eat	DAT	rat,This is the cat that ate the rat.,,,,McFarland1978[157];Himmelmann2005[148],McFarland 1978: 157; Himmelmann 2005: 148
+hili1240-1,hili1240,Nag-hampa’ ang maestra kay Roberto,Nag-hampa’	ang	maestra	kay	Roberto,AV.RLS-strike	NOM	teacher	DAT	Roberto,The teacher hit Roberto.,,,,spitz2002hiligaynon[386],Spitz 2002: 386
+hili1240-2,hili1240,Nag-hampa’ ang maestra sa iya,Nag-hampa’	ang	maestra	sa	iya,AV.RLS-strike	NOM	teacher	DAT	3SG.UNF,The teacher hit him/her.,,,,spitz2002hiligaynon[385],Spitz 2002: 385
+hili1240-3,hili1240,Nag-hatag ang maestra sang bola sa bata’,Nag-hatag	ang	maestra	sang	bola	sa	bata’,AV.RLS-give	NOM	teacher	GEN	ball	DAT	child,The teacher gave a ball to the child.,,,,spitz2002hiligaynon[386],Spitz 2002: 386
+hili1240-4,hili1240,Nag-hakos ako sa propesor.,Nag-hakos	ako	sa	propesor.,AV.RLS-hug	1SG.NOM	DAT	professor,I hugged the professor.,,,,spitz2001hiligaynon[13],Spitz 2001: 13
+tbol1240-1,tbol1240,Ne omin le t<m>udà ke Was,Ne	omin	le	t<m>udà	ke	Was,and	then	3PL.NOM	<AV>throw	OBL	Monkey,And then they threw Monkey out.,,,,Forsberg1992pedagogical[66],Forsberg 1992: 66
+tbol1240-2,tbol1240,Mangay-i kut el,Mangay-i	kut	el,AV:fetch-2SG.NOM	1DU.OBL	water,Please fetch some water for us.,,,,Forsberg1992pedagogical[66],Forsberg 1992: 66
+tbol1240-3,tbol1240,Omin le mtem yem gunù,Omin	le	mtem	yem	gunù,then	3PL.NOM	AV:burn	that	house,And then they burnt that house.,,,,Forsberg1992pedagogical[67],Forsberg 1992: 67
+tbol1240-4,tbol1240,Du t<m>olok do,Du	t<m>olok	do,3SG.NOM	<AV>teach	1SG.OBL,He/She will be the one to teach me.,,,,Forsberg1992pedagogical[67],Forsberg 1992: 67
+rata1244-1,rata1244,Isé nto sumúq nanilow si tonaqas,Isé	nto	sumúq	nanilow	si	tonaqas,3SG	LK.NR	AV:enter	AV.PST:look_for	LOC	shaman,He would be the one to enter (Kinilow) and look for the shaman.,,,,Himmelmann1999toratan[23],Himmelmann and Wolff 1999: 23
+rata1244-2,rata1244,Ngapey siyaq,Ngapey	siyaq,AV:wave	LOC.1SG,‘(He) beckoned me over.,,,,Himmelmann1999toratan[24],Himmelmann and Wolff 1999: 24
+mala1537-1,mala1537,Nanenjika an-dRabe aho,Nanenjika	an-dRabe	aho,PST.AV.chase	DAT-Rabe	1SG,I chased Rabe.,,,,Keenan2008definiteness[245],Keenan 2008: 245
+mala1537-2,mala1537,Nanenjika ahy izy,Nanenjika	ahy	izy,PST.AV.chase	1SG.DAT	3SG,He chased me.,,,,Keenan2008definiteness[245],Keenan 2008: 245
+mala1537-3,mala1537,Manao (*an) farafra mahafinaritra io mpandrafirtra io,Manao	(*an)	farafra	mahafinaritra	io	mpandrafirtra	io,PRS.AV:make		bed	pleasing	DET	carpenter	DEM,That carpenter makes pleasing beds.,,,,Keenan2008definiteness[246],Keenan 2008: 246
+mala1537-4,mala1537,Mijery an ilay alika Rasoa,Mijery	an	ilay	alika	Rasoa,PRS.AV:watch	DAT	DET	dog	Rasoa,Rasoa is watching this dog.,,,,Zribi1999malagasy[191],Zribi-Hertz and Mbolatianavalona 1999: 191
+mala1537-5,mala1537,Tsy mahalala an io olona io aho,Tsy	mahalala	an	io	olona	io	aho,NEG	PRS.AV:know	DAT	DET	person	DEM	1SG,I don’t know that person.,,,,Iemmolo2011dom[206],Iemmolo 2011: 206
+kima1244-1,kima1244,"Kadung aa kou pendakod dogon, tibas-on tekoo","Kadung	aa	kou	pendakod	dogon,	tibas-on	tekoo",if	NEG	2PL.NOM	AV-CAUS-climb	1SG.DAT	slash-PV	1SG.GEN-2PL.NOM,"If you don’t let me climb up there, I’ll slash you all to pieces!",,,,Kroeger2005kimaragang[422],Kroeger 2005: 422
+kima1244-2,kima1244,Mangalapak okuh do niyuw,Mangalapak	okuh	do	niyuw,AV-TR-split	1SG.NOM	GEN	coconut,I will split a coconut / some coconuts.,,,,Kroeger2005kimaragang[407],Kroeger 2005: 407
+kima1244-3,kima1244,Ontok nopoh dit tanak dot [minonibas dit tidi yoh] …,Ontok	nopoh	dit	tanak	dot	[minonibas	dit	tidi	yoh]	…,about	only	GEN	child	REL	PST.AV.TR:slash	GEN	mother	3SG.GEN	…,"As for the son who slashed (i.e. murdered) his mother, …",,,,Kroeger2005kimaragang[413],Kroeger 2005: 413
+kima1244-4,kima1244,Waro noh tulun sirih [dot sinumambat di Majabou],Waro	noh	tulun	sirih	[dot	sinumambat	di	Majabou],exist	FOC	person	ANAPH.LOC	REL	PST.AV:meet	GEN	Majabou,There were people there who met Majabou …,,,,Kroeger2005kimaragang[413],Kroeger 2005: 413
+mala1481-1,mala1481,Dorang da kuti (pa) itu anak,Dorang	da	kuti	(pa)	itu	anak,3PL	PST	flick	DIR	the	child,They flicked the child.,,,,Iemmolo2011dom[104],Iemmolo 2011: 104
+mala1481-2,mala1481,Utu da skop pa kita,Utu	da	skop	pa	kita,Utu	PST	kick	DIR	1SG,Utu kicked me.,,,,Iemmolo2011dom[104],Iemmolo 2011: 104
+mala1481-3,mala1481,Kita da tampeleng pa John,Kita	da	tampeleng	pa	John,1SG	PST	slap	DIR	John,I slapped John.,,,,Iemmolo2011dom[104],Iemmolo 2011: 104
+indo1316-1,indo1316,Narti menunggu=ku,Narti	menunggu=ku,PN	AV:wait=1SG.GEN,Narti is waiting for me.,,,,sneddon2010indonesian[170],Sneddon et al. 2010: 170
+indo1316-2,indo1316,Narti menunggu aku.,Narti	menunggu	aku.,PN	AV:wait	1SG,Narti is waiting for me.,,,,sneddon2010indonesian[171],Sneddon et al. 2010:171
+indo1316-3,indo1316,Aku me-lihat guru=nya tadi,Aku	me-lihat	guru=nya	tadi,1SG	AV-see	teacher=3SG.GEN	recently,I saw the teacher earlier (today).,,,,sneddon2010indonesian[171],Sneddon et al. 2010: 171
+indo1316-4,indo1316,Guru=nya me-lihat aku tadi.,Guru=nya	me-lihat	aku	tadi.,teacher=3SG.GEN	AV-see	1SG	recently,The teacher saw me earlier today.,,,,sneddon2010indonesian[171],Sneddon et al. 2010: 171
+indo1316-5,indo1316,Ini pena aku,Ini	pena	aku,PRX	pen	1SG,This is my pen.,,,,sneddon2010indonesian[171],Sneddon et al. 2010: 171
+indo1316-6,indo1316,"Surat itu, saya belum menerima=nya.","Surat	itu,	saya	belum	menerima=nya.",letter	DIST	1SG	not.yet	AV:receive=3SG.GEN,"Concerning that letter, I haven’t received it yet.",,,,sneddon2010indonesian[290],Sneddon et al. 2010: 290
+indo1316-7,indo1316,sebuah lagu yang barangkali saudara akan menyukai=nya,sebuah	lagu	yang	barangkali	saudara	akan	menyukai=nya,one:CLF	song	REL	apparently	sibling	will	AV:like:APPL=3SG.GEN,a song which perhaps you will like,,,,sneddon2010indonesian[298],Sneddon et al. 2010: 298

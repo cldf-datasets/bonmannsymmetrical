@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/bonmannsymmetrical",
             "rdf:type": "prov:Entity",
-            "dc:created": "dbf20ad",
+            "dc:created": "b8a41f8",
             "dc:title": "Repository"
         },
         {
@@ -28,7 +28,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.19"
+            "dc:description": "3.10.18"
         },
         {
             "dc:title": "python-packages",
