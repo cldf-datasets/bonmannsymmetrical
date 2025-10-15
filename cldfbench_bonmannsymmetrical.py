@@ -24,6 +24,7 @@ def make_examples(csv_examples):
             'Analyzed_Word': analyzed,
             'Gloss': gloss,
             'Translated_Text': translation,
+            'Source': re.split(r'\s*;\s*', ex['Bibkey']),
             'Source_comment': ex['Source'],
         })
 
