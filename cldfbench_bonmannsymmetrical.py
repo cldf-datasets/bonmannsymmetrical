@@ -5,7 +5,11 @@ from collections import defaultdict
 
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
-from simplepybtex.database import parse_string
+from simplepybtex.database import BibliographyData, parse_string
+
+
+def normalise_bibkey(bibkey):
+    return bibkey.casefold()
 
 
 def make_examples(csv_examples):
@@ -24,7 +28,7 @@ def make_examples(csv_examples):
             'Analyzed_Word': analyzed,
             'Gloss': gloss,
             'Translated_Text': translation,
-            'Source': re.split(r'\s*;\s*', ex['Bibkey']),
+            'Source': re.split(r'\s*;\s*', normalise_bibkey(ex['Bibkey'])),
             'Source_comment': ex['Source'],
         })
 
@@ -53,7 +57,7 @@ def make_languages(raw_table, glottolog):
 
 def valid_source(source_string, bibentries):
     bibkey, _ = re.fullmatch(r'(.*?)(\[[^\]]*\])?', source_string).groups()
-    if bibkey in bibentries:
+    if normalise_bibkey(bibkey) in bibentries:
         return True
     else:
         print('unkown source:', source_string, file=sys.stderr)
@@ -68,7 +72,7 @@ def make_value(row, code, examples_by_gc, bibentries):
         for s in source_strings
         if 'personal communication' in s
         or 'field notes' in s]
-    bibentries = [
+    source = [
         s
         for s in source_strings
         if s not in perscomm
@@ -83,7 +87,7 @@ def make_value(row, code, examples_by_gc, bibentries):
         'Example_IDs': examples,
         'Code_ID': code['ID'],
         'Value': code['Name'],
-        'Source': bibentries,
+        'Source': source,
         'Source_comment': '; '.join(perscomm),
     }
 
@@ -164,6 +168,9 @@ class Dataset(BaseDataset):
             row['Original_Name']: row
             for row in self.etc_dir.read_csv('codes.csv', dicts=True)}
         sources = parse_string(self.raw_dir.read('sources.bib'), 'bibtex')
+        sources = BibliographyData(entries={
+            normalise_bibkey(bibkey): entry
+            for bibkey, entry in sources.entries.items()})
 
         languages = make_languages(raw_table, args.glottolog.api)
         values = make_values(raw_table, codes, examples_by_gc, sources.entries)
