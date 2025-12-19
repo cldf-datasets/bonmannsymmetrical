@@ -1,0 +1,41 @@
+{
+    "title": "Differential object marking in symmetrical voice languages",
+    "access_right": "open",
+    "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "creators": [
+        {
+            "name": "Bernd Kortmann"
+        },
+        {
+            "name": "Sonja Riesberg"
+        },
+        {
+            "name": "Nikolaus P. Himmelmann"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Johannes Englisch",
+            "type": "Other"
+        },
+        {
+            "name": "Martin Haspelmath",
+            "type": "Other"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "cldf-datasets"
+        },
+        {
+            "identifier": "crossgram"
+        }
+    ]
+}
