@@ -4,7 +4,7 @@ bibtexparser==2.0.0b8
 bs4==0.0.2
 certifi==2025.11.12
 cldfbench==1.14.2
--e git+https://github.com/cldf-datasets/bonmannsymmetrical@260e26e4cfc2255fb63c922a9c5aea51b29542dc#egg=cldfbench_bonmannsymmetrical
+-e git+https://github.com/cldf-datasets/bonmannsymmetrical@d9b5c61970336d6a53c6f5dd382a07ff614556bb#egg=cldfbench_bonmannsymmetrical
 cldfcatalog==1.6.0
 cldfzenodo==2.2.0
 clldutils==3.24.2
